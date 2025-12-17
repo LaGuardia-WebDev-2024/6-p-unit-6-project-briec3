@@ -12,6 +12,8 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+
+  //head stuff
 fill(235, 199, 108);
 ellipse(170, 120, 80, 70); 
   
@@ -29,6 +31,7 @@ rect(133, 100, 20, 5, 30)
 fill(235, 199, 108);
 rect(170, 149, 10, 20);
 
+//clothes
 fill(240, 39, 12);
 rect(165, 165, 20, 5, 30)
 
@@ -40,13 +43,22 @@ fill(252, 253, 255)
 ellipse(175, 250, 65, 160);
 
 fill()
-stroke(26,27,28);
+stroke(192, 194, 196);
 strokeWeight(4);
 line(170, 200, 190, 200);
 
 line(190, 200, 190, 301);
 
+fill()
+ellipse(180, 210, 7, 1);
+ellipse(180, 230, 7, 1);
+ellipse(180, 250, 7, 1);
+ellipse(180, 270, 7, 1);
+ellipse(180, 290, 7, 1);
 
+fill(25,26,27);
+stroke(25,26,27);
+quad(270, 300, 270, 300, 320, 330, 180, 350);
 }
 
 //🟡Extra FUN Features Ms. Hall Added

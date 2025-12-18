@@ -58,7 +58,9 @@ ellipse(180, 290, 7, 1);
 
 fill(25,26,27);
 stroke(25,26,27);
-quad(270, 300, 270, 300, 320, 330, 180, 350);
+strokeWeight(9);
+line()
+
 }
 
 //🟡Extra FUN Features Ms. Hall Added

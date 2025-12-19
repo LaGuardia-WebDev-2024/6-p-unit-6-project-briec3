@@ -56,10 +56,42 @@ ellipse(180, 250, 7, 1);
 ellipse(180, 270, 7, 1);
 ellipse(180, 290, 7, 1);
 
-fill(25,26,27);
-stroke(25,26,27);
-strokeWeight(9);
-line()
+fill(25,26,27)
+stroke(25,26,27)
+rect(150, 130, 18, 11);
+rect(175, 130, 18, 11);
+
+//left arm
+
+fill(228, 230, 235);
+stroke(25, 26, 27);
+strokeWeight(1)
+rect(38, 200, 111, 10);
+
+
+//right arm
+
+fill(228, 230, 235);
+stroke(25, 26, 27);
+strokeWeight(1)
+rect(200, 200, 111, 10);
+
+//bottom
+fill(150, 5, 34)
+rect(143, 300, 68, 40, 0);
+
+//shoes
+fill(107, 62, 7)
+ellipse(150, 380, 60, 120);
+
+fill(107, 62, 7)
+ellipse(210, 380, 60, 120);
+fill(54, 42, 28)
+rect(190,350,50,10)
+rect(190,370,50,10)
+rect(120,350,50,10)
+rect(120,370,50,10)
+
 
 }
 
